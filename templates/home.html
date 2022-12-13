@@ -1,0 +1,20 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Film Sentiment Analysis</h1><br>
+        
+        <form action="{{ url_for('predict')}}" method="POST">
+          <p>Enter Your review Here</p>
+        
+          <textarea name="a" rows="6" cols="50" required="required" id="ip4"></textarea>
+          <br/>
+      <br><br>
+          <input type="submit" class="btn-primary"  value='predict'>
+          
+        </form>
+    </center>
+
+    </body>
+</html>
